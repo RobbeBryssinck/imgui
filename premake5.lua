@@ -1,7 +1,6 @@
 project "imgui"
     kind "StaticLib"
     language "C++"
-    targetdir "bin/%{cfg.buildcfg}"
 
     files
     {
@@ -11,6 +10,7 @@ project "imgui"
         "imgui_draw.cpp",
         "imgui_internal.h",
         "imgui_widgets.cpp",
+        "imgui_tables.cpp",
         "imstb_rectpack.h",
         "imstb_textedit.h",
         "imstb_truetype.h",
